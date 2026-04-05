@@ -41,4 +41,4 @@ Open Termux and run:
 ---
 
 ## 👤 Author
-Kailash S — [@kailash1234-visual](https://github.com/kailash1234-visual)
+Selva Kailash S — [@kailash1234-visual](https://github.com/kailash1234-visual)
