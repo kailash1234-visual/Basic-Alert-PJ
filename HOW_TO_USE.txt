@@ -1,0 +1,27 @@
+== Alert System Setup ===
+
+1. Install Termux from Play Store or f-droid.org
+2. Install Termux:API app from Play Store
+3. Open Termux and run these commands:
+
+   pkg update
+   pkg install python
+   pkg install termux-api
+
+4. Copy alert.py to your Termux home folder:
+   cp /sdcard/alert.py ~/alert.py
+
+5. Run the alert system:
+   python alert.py
+
+6. To run in background:
+   nohup python alert.py &
+
+7. To stop it:
+   pkill -f alert.py
+
+=== What it does ===
+✅ Alerts every 30 mins of phone use
+✅ Gym Time alert at 4:00 PM daily
+❌ Skips Sunday for gym alert
+📳 Vibrates and sends notifications
